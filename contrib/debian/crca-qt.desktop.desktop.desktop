@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Crca
+Comment=Crca P2P Cryptocurrency
+Exec=crca-qt %u
+Terminal=false
+Type=Application
+Icon=crca128
+MimeType=x-scheme-handler/crca;
+Categories=Office;Finance;
+Name[ru]=crca-qt.desktop.desktop

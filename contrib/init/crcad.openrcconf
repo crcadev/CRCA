@@ -1,0 +1,26 @@
+# /etc/conf.d/crcad: config file for /etc/init.d/crcad
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/crca/crca.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/crcad"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/crcad.pid"
+
+# Where to write crcad data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/crcad"
+
+# User and group to own crcad process
+#BITCOIND_USER="crca"
+#BITCOIND_GROUP="crca"
+
+# Path to crcad executable
+#BITCOIND_BIN="/usr/bin/crcad"
+
+# Nice value to run crcad under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
